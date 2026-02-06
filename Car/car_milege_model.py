@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 import pickle
-df = pd.read_csv('Car/car.csv')
+df = pd.read_csv('Car/car_data.csv')
 
 print(df)
 
