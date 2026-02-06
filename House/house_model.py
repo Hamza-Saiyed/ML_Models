@@ -28,7 +28,7 @@ pred = model.predict(input_data)
 print("Prediction: ",pred[0])
 
 
-with open('house_model2.pkl',"wb") as f:
+with open('House/house_model2.pkl',"wb") as f:
     pickle.dump(model, f)
     
 print("Model Saved Successfully as house_model2.pkl")
